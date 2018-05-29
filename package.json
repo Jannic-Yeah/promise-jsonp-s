@@ -1,6 +1,6 @@
 {
   "name": "promise-jsonp-simple",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./dist/promiseJsonp.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
   ],
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
-    "jsonp": "^0.2.1"
+    "jsonp": "^0.2.1",
+    "querystring": "^0.2.0"
   },
   "scripts": {
     "build": "babel promiseJsonp.js -o ./dist/promiseJsonp.js"
