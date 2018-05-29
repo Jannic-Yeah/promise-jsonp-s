@@ -1,6 +1,6 @@
 {
   "name": "promise-jsonp-simple",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "main": "./dist/promiseJsonp.js",
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   },
   "scripts": {
     "build": "babel promiseJsonp.js -o ./dist/promiseJsonp.js"
+  },
+  "dependencies": {
+    "jsonp": "^0.2.1",
+    "querystring": "^0.2.0"
   }
 }
