@@ -6,9 +6,6 @@ function apiRejectHandler(msg) {
 }
 
 export function promiseJsonp(url, data) {
-  const data = data
-  // 避免接口缓存
-  data.__time = new Date().getTime()
   return new Promise((resolve, reject) => {
       Jsonp(`${url}?${stringify(data)}`, null, (error, data) => {
         if (error) {

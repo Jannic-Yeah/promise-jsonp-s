@@ -1,12 +1,18 @@
-{   
-    "name": "promise-jsonp-s",
-    "version": "0.0.1",
-    "main": "promiseJsonp.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Jannic-Yeah/promise-jsonp-s"
-    },
-    "keywords": [
-        "jsonp"
-    ]
+{
+  "name": "promise-jsonp-s",
+  "version": "0.0.1",
+  "main": "promiseJsonp.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jannic-Yeah/promise-jsonp-s"
+  },
+  "keywords": [
+    "jsonp"
+  ],
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel promiseJsonp.js -o ./dist/promiseJsonp.js"
+  }
 }
