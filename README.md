@@ -1,1 +1,1 @@
-# promise-jsonp-s
+a simple jsonp with promise
