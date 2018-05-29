@@ -1,7 +1,7 @@
 {
   "name": "promise-jsonp-s",
-  "version": "0.0.2",
-  "main": "promiseJsonp.js",
+  "version": "0.0.3",
+  "main": "./dist/promiseJsonp.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jannic-Yeah/promise-jsonp-s"
